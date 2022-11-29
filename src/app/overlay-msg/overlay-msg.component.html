@@ -1,1 +1,11 @@
 <p>overlay-msg works!</p>
+<button (click)="onClick()" type="button">點我</button>
+
+<ng-template #msg>
+  <div class="overlaybox px-4 py-4">
+    <img class="my-5" src="./assets/images/icon-uploading.svg" alt="" />
+    <button type="button" class="d-flex btn btn-outline-secondary px-5">
+      檔案上傳中
+    </button>
+  </div>
+</ng-template>
