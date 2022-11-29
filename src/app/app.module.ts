@@ -14,6 +14,7 @@ import { Step3CreateSignComponent } from './step3-create-sign/step3-create-sign.
 import { Step3UplaodSignComponent } from './step3-uplaod-sign/step3-uplaod-sign.component';
 import { Step4ModifySignComponent } from './step4-modify-sign/step4-modify-sign.component';
 import { Step5DownloadFileComponent } from './step5-download-file/step5-download-file.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { Step5DownloadFileComponent } from './step5-download-file/step5-download
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
