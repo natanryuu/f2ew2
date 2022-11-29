@@ -17,5 +17,4 @@ export class CoverPageComponent {
   animationCreated(animationItem: AnimationItem): void {
     console.log(animationItem);
   }
-
 }
